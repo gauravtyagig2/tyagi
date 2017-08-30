@@ -19,7 +19,7 @@ var evenDoubler = function(v,callback){
 
 var resultHandler= function(err,r,t){
     if(err){
-        console.log("Error"+ err.message + "wait time " + t);
+        console.log("iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiError"+ err.message + "wait time " + t);
     }else{
         console.log(r + "wait time "+ t);
     }
